@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/rest_orders_db
+  datasource:
+    username: root
+  datasource:
+    password: Arjunjr@123
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  jpa:
+    show-sql: true
