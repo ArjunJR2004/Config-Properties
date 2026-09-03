@@ -1,0 +1,16 @@
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/rest_product_db
+    username: root
+    password: Arjunjr@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
